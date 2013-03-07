@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ViewController accelerometer:didAccelerate:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sizeof(colors[0])">
+            </PersistentString>
+            <PersistentString
+               value = "colors[3]">
+            </PersistentString>
+            <PersistentString
+               value = "colors[currentColorIndex]">
+            </PersistentString>
+            <PersistentString
+               value = "sizeof(colors)">
+            </PersistentString>
+            <PersistentString
+               value = "CACurrentMediaTime()">
+            </PersistentString>
+            <PersistentString
+               value = "self.view.backgroundColor">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

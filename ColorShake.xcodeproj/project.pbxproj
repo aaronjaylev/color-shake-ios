@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41FE05AF16E858A2003751DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FE05AE16E858A2003751DA /* UIKit.framework */; };
+		41FE05B116E858A3003751DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FE05B016E858A2003751DA /* Foundation.framework */; };
+		41FE05B316E858A3003751DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FE05B216E858A3003751DA /* CoreGraphics.framework */; };
+		41FE05B916E858A3003751DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41FE05B716E858A3003751DA /* InfoPlist.strings */; };
+		41FE05BB16E858A3003751DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE05BA16E858A3003751DA /* main.m */; };
+		41FE05BF16E858A3003751DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE05BE16E858A3003751DA /* AppDelegate.m */; };
+		41FE05C116E858A3003751DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FE05C016E858A3003751DA /* Default.png */; };
+		41FE05C316E858A3003751DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FE05C216E858A3003751DA /* Default@2x.png */; };
+		41FE05C516E858A3003751DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41FE05C416E858A3003751DA /* Default-568h@2x.png */; };
+		41FE05C816E858A3003751DA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FE05C616E858A3003751DA /* MainStoryboard_iPhone.storyboard */; };
+		41FE05CB16E858A3003751DA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FE05C916E858A3003751DA /* MainStoryboard_iPad.storyboard */; };
+		41FE05CE16E858A3003751DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FE05CD16E858A3003751DA /* ViewController.m */; };
+		41FE05D616E86384003751DA /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FE05D516E86384003751DA /* CoreMotion.framework */; };
+		41FE05D816E88CA2003751DA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FE05D716E88CA2003751DA /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41FE05AB16E858A2003751DA /* ColorShake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorShake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FE05AE16E858A2003751DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41FE05B016E858A2003751DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41FE05B216E858A3003751DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41FE05B616E858A3003751DA /* ColorShake-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorShake-Info.plist"; sourceTree = "<group>"; };
+		41FE05B816E858A3003751DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41FE05BA16E858A3003751DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41FE05BC16E858A3003751DA /* ColorShake-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorShake-Prefix.pch"; sourceTree = "<group>"; };
+		41FE05BD16E858A3003751DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41FE05BE16E858A3003751DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41FE05C016E858A3003751DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		41FE05C216E858A3003751DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		41FE05C416E858A3003751DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		41FE05C716E858A3003751DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		41FE05CA16E858A3003751DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		41FE05CC16E858A3003751DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41FE05CD16E858A3003751DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41FE05D516E86384003751DA /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		41FE05D716E88CA2003751DA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41FE05A816E858A2003751DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FE05D816E88CA2003751DA /* QuartzCore.framework in Frameworks */,
+				41FE05D616E86384003751DA /* CoreMotion.framework in Frameworks */,
+				41FE05AF16E858A2003751DA /* UIKit.framework in Frameworks */,
+				41FE05B116E858A3003751DA /* Foundation.framework in Frameworks */,
+				41FE05B316E858A3003751DA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41FE05A216E858A2003751DA = {
+			isa = PBXGroup;
+			children = (
+				41FE05B416E858A3003751DA /* ColorShakes */,
+				41FE05AD16E858A2003751DA /* Frameworks */,
+				41FE05AC16E858A2003751DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41FE05AC16E858A2003751DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41FE05AB16E858A2003751DA /* ColorShake.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41FE05AD16E858A2003751DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41FE05D716E88CA2003751DA /* QuartzCore.framework */,
+				41FE05D516E86384003751DA /* CoreMotion.framework */,
+				41FE05AE16E858A2003751DA /* UIKit.framework */,
+				41FE05B016E858A2003751DA /* Foundation.framework */,
+				41FE05B216E858A3003751DA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41FE05B416E858A3003751DA /* ColorShakes */ = {
+			isa = PBXGroup;
+			children = (
+				41FE05BD16E858A3003751DA /* AppDelegate.h */,
+				41FE05BE16E858A3003751DA /* AppDelegate.m */,
+				41FE05C616E858A3003751DA /* MainStoryboard_iPhone.storyboard */,
+				41FE05C916E858A3003751DA /* MainStoryboard_iPad.storyboard */,
+				41FE05CC16E858A3003751DA /* ViewController.h */,
+				41FE05CD16E858A3003751DA /* ViewController.m */,
+				41FE05B516E858A3003751DA /* Supporting Files */,
+			);
+			path = ColorShakes;
+			sourceTree = "<group>";
+		};
+		41FE05B516E858A3003751DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41FE05B616E858A3003751DA /* ColorShake-Info.plist */,
+				41FE05B716E858A3003751DA /* InfoPlist.strings */,
+				41FE05BA16E858A3003751DA /* main.m */,
+				41FE05BC16E858A3003751DA /* ColorShake-Prefix.pch */,
+				41FE05C016E858A3003751DA /* Default.png */,
+				41FE05C216E858A3003751DA /* Default@2x.png */,
+				41FE05C416E858A3003751DA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41FE05AA16E858A2003751DA /* ColorShake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41FE05D116E858A3003751DA /* Build configuration list for PBXNativeTarget "ColorShake" */;
+			buildPhases = (
+				41FE05A716E858A2003751DA /* Sources */,
+				41FE05A816E858A2003751DA /* Frameworks */,
+				41FE05A916E858A2003751DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorShake;
+			productName = ColorShakes;
+			productReference = 41FE05AB16E858A2003751DA /* ColorShake.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41FE05A316E858A2003751DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Aaron Jay";
+			};
+			buildConfigurationList = 41FE05A616E858A2003751DA /* Build configuration list for PBXProject "ColorShake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41FE05A216E858A2003751DA;
+			productRefGroup = 41FE05AC16E858A2003751DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41FE05AA16E858A2003751DA /* ColorShake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41FE05A916E858A2003751DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FE05B916E858A3003751DA /* InfoPlist.strings in Resources */,
+				41FE05C116E858A3003751DA /* Default.png in Resources */,
+				41FE05C316E858A3003751DA /* Default@2x.png in Resources */,
+				41FE05C516E858A3003751DA /* Default-568h@2x.png in Resources */,
+				41FE05C816E858A3003751DA /* MainStoryboard_iPhone.storyboard in Resources */,
+				41FE05CB16E858A3003751DA /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41FE05A716E858A2003751DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FE05BB16E858A3003751DA /* main.m in Sources */,
+				41FE05BF16E858A3003751DA /* AppDelegate.m in Sources */,
+				41FE05CE16E858A3003751DA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41FE05B716E858A3003751DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FE05B816E858A3003751DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41FE05C616E858A3003751DA /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FE05C716E858A3003751DA /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		41FE05C916E858A3003751DA /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FE05CA16E858A3003751DA /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41FE05CF16E858A3003751DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41FE05D016E858A3003751DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41FE05D216E858A3003751DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorShakes/ColorShake-Prefix.pch";
+				INFOPLIST_FILE = "ColorShakes/ColorShake-Info.plist";
+				PRODUCT_NAME = ColorShake;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41FE05D316E858A3003751DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorShakes/ColorShake-Prefix.pch";
+				INFOPLIST_FILE = "ColorShakes/ColorShake-Info.plist";
+				PRODUCT_NAME = ColorShake;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41FE05A616E858A2003751DA /* Build configuration list for PBXProject "ColorShake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FE05CF16E858A3003751DA /* Debug */,
+				41FE05D016E858A3003751DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41FE05D116E858A3003751DA /* Build configuration list for PBXNativeTarget "ColorShake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FE05D216E858A3003751DA /* Debug */,
+				41FE05D316E858A3003751DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41FE05A316E858A2003751DA /* Project object */;
+}

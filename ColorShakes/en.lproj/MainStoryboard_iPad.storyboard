@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Color Shakes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEd-8q-dwC">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="105" id="col-jQ-bz4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Shake the Tablet to change the color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W4y-VO-toX">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="mVd-tb-hSC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="White" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCB-bn-0JI">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="SoZ-sP-u17"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Aaron Jay Lev - http://www.aaronjay.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Prs-X3-t5U">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="70Y-kM-kYM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="W4y-VO-toX" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="5eQ-4q-FEa"/>
+                            <constraint firstAttribute="trailing" secondItem="W4y-VO-toX" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="JP1-Gw-DXU"/>
+                            <constraint firstAttribute="trailing" secondItem="Prs-X3-t5U" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="MQ1-uu-XiC"/>
+                            <constraint firstItem="bEd-8q-dwC" firstAttribute="top" secondItem="5" secondAttribute="top" constant="34" id="MgJ-E8-IsT"/>
+                            <constraint firstItem="Prs-X3-t5U" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="MhX-LV-71A"/>
+                            <constraint firstItem="bEd-8q-dwC" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Zdd-5s-GQC"/>
+                            <constraint firstAttribute="trailing" secondItem="bEd-8q-dwC" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="bOM-1w-ioZ"/>
+                            <constraint firstItem="kCB-bn-0JI" firstAttribute="top" secondItem="5" secondAttribute="top" constant="449" id="eQv-IY-uct"/>
+                            <constraint firstAttribute="bottom" secondItem="Prs-X3-t5U" secondAttribute="bottom" constant="25" id="o0I-PS-y5V"/>
+                            <constraint firstItem="W4y-VO-toX" firstAttribute="top" secondItem="5" secondAttribute="top" constant="136" id="opy-Yp-UdW"/>
+                            <constraint firstItem="kCB-bn-0JI" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="qkz-Ve-8Q3"/>
+                            <constraint firstAttribute="trailing" secondItem="kCB-bn-0JI" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="smK-VW-556"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblAuthor" destination="Prs-X3-t5U" id="Qms-wL-Wpb"/>
+                        <outlet property="lblColor" destination="kCB-bn-0JI" id="srL-Um-hbQ"/>
+                        <outlet property="lblInstructions" destination="W4y-VO-toX" id="A0s-lj-Hmt"/>
+                        <outlet property="lblTitle" destination="bEd-8q-dwC" id="dX7-dL-AYt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="43" y="-144"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

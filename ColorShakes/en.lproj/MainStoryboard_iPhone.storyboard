@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Color Shakes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ee5-fe-tKc">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="IFB-D4-sr9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="White" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dd-1V-J8S">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="iAA-Y5-WOG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Shake the Phone to change the color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6s-T2-d7C">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1b7-cM-gjS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Aaron Jay Lev http://www.aaronjay.com" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="m3K-BK-unj">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="2ld-Jh-dTW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="X6s-T2-d7C" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="4Dw-IN-l9p"/>
+                            <constraint firstItem="1dd-1V-J8S" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="6aB-iA-Ud1"/>
+                            <constraint firstAttribute="trailing" secondItem="ee5-fe-tKc" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="AYo-kI-ObP"/>
+                            <constraint firstItem="ee5-fe-tKc" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="D3V-x5-8Xe"/>
+                            <constraint firstItem="X6s-T2-d7C" firstAttribute="top" secondItem="3" secondAttribute="top" constant="73" id="DQ4-Jw-TAX"/>
+                            <constraint firstAttribute="trailing" secondItem="m3K-BK-unj" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="I9k-OI-rBl"/>
+                            <constraint firstAttribute="trailing" secondItem="1dd-1V-J8S" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="IgE-MV-0GD"/>
+                            <constraint firstItem="m3K-BK-unj" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="YdY-HY-0Ch"/>
+                            <constraint firstItem="1dd-1V-J8S" firstAttribute="top" secondItem="3" secondAttribute="top" constant="238" id="mW7-IK-PXK"/>
+                            <constraint firstItem="ee5-fe-tKc" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="sGs-18-Glz"/>
+                            <constraint firstAttribute="bottom" secondItem="m3K-BK-unj" secondAttribute="bottom" constant="26" id="zD7-RG-27b"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblAuthor" destination="m3K-BK-unj" id="NNP-nS-bpq"/>
+                        <outlet property="lblColor" destination="m3K-BK-unj" id="lb2-xG-9iR"/>
+                        <outlet property="lblInstructions" destination="X6s-T2-d7C" id="7PA-xI-kNu"/>
+                        <outlet property="lblTitle" destination="ee5-fe-tKc" id="ynO-QV-vhy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="lblAuthor" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lblColor" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lblInstructions" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="lblTitle" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
